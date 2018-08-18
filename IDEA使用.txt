@@ -1,0 +1,49 @@
+1、IDEA的项目(Project)则相当于Eclipse的工作空间(workspace)的概念
+
+2、创建Java Se项目：Create New Project - 左侧默认选择Java - 右侧都不选 - Next
+
+3、查询功能：Ctrl+Shift+A
+
+4、固定窗口：
+		如：Project - 右键 - 选中Pinned Mode(pinned：用别针别住)
+		
+5、Messages、Terminal、Run
+
+6、更改UI部分的字体：file>setting>apperance
+
+7、更改编辑器的字体：file>setting>Editor>colors&Fonts>Font
+		这个时候会发现show only monospaced fonts的复选框被选中且无法更改其状态，这个选项也导致了后面的字体和字号无法更改。
+		必须在新建一个主题才能够使用（Ready-only Scheme, copy to edit）。
+		首先需要点击save as新建一个自己的主题，之后也就可以更改字体和字体size了。
+
+8、快速创建Main方法：psvm		
+
+9、自动补全：Idea的默认快捷键是 Ctrl + 空格，与中文输入法快捷键冲突。
+		修改方法如下：点击 文件菜单(File) –> 点击 设置(Settings… Ctrl+Alt+S), –> 打开设置对话框。
+		在左侧的导航框中点击 KeyMap。
+		接着在右边的树型框中选择 Main menu –> Code –> Completion.
+		接着需要做两件事：
+			1. 移除原来的Cycle Expand Word 的 Alt+斜杠 快捷键绑定。
+			2. 在 Basic 上点击右键,去除原来的 Ctrl+空格 绑定,然后添加 Alt + 斜杠 快捷键。
+	
+10、组件
+		10.1 顶级容器
+			10.1.1 JFrame
+			10.1.2 JDialog		x
+			10.1.3 JApplet		x
+
+		10.2 中间容器
+			10.2.1 JPanel
+			10.2.2 JScrollPane
+			10.2.3 JTabbedPane
+			
+11、鼠标放在方法上提示参数：File -> Setting -> Editor -> General -> other -> Show quick documentation on mouse move 选中
+
+		
+快捷方式：
+1、复制行：Ctrl+D
+2、删除行：Ctrl+Y
+3、撤销：Ctrl+Z
+4、恢复：Ctrl+Shift+Z
+
+
